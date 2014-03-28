@@ -1,3 +1,6 @@
+body {
+    background: #ecf0f1;
+}
 .desktop {
     position: absolute;
     top: -700px;
@@ -8,6 +11,8 @@
     font-size: 807px;
     position: relative;
     line-height: 0;
+    color: #1abc9c;
+    text-shadow: 4px 4px 0 #16a085;
 }
 
 .desktop .iframe-wrapper {
@@ -41,6 +46,8 @@
     font-size: 710px;
     -webkit-transform: rotate(90deg);
     color: rgb(0, 82, 128);
+    color: #e67e22;
+    text-shadow: 4px 4px 0 #d35400;
 }
 
 .tablet .iframe-wrapper {
@@ -68,6 +75,8 @@
 .mobile i.fa {
     font-size: 710px;
     color: rgb(0, 82, 128);
+    color: #3498db;
+    text-shadow: 4px 4px 0 #2980b9;
 }
 
 .mobile .iframe-wrapper {
