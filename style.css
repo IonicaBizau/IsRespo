@@ -1,0 +1,30 @@
+.desktop {
+    position: absolute;
+    top: -700px;
+    left: 50px;
+}
+
+.desktop i.fa {
+    font-size: 807px;
+    position: relative;
+    line-height: 0;
+}
+
+.desktop .iframe-wrapper {
+    position: relative;
+    top: 773px;
+    height: 1127px;
+    width: 1872px;
+    left: 58px;
+}
+.desktop iframe {
+    height: 100%;
+    width: 100%;
+    -ms-zoom: 0.4;
+    -moz-transform: scale(0.4);
+    -moz-transform-origin: 0 0;
+    -o-transform: scale(0.4);
+    -o-transform-origin: 0 4;
+    -webkit-transform: scale(0.4);
+    -webkit-transform-origin: 0 0;
+}
