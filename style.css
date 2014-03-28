@@ -3,6 +3,16 @@
 body {
     background: #ecf0f1;
 }
+
+body > h1 {
+font-family: "Open Sans", sans-serif;
+font-weight: 100;
+position: absolute;
+right: 8px;
+font-size: 50px;
+text-align: right;
+}
+
 .desktop {
     position: absolute;
     top: -700px;
