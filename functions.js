@@ -1,6 +1,6 @@
 $("button").on("click", function () {
     var $this = $(this);
-    $this.hide();
+   // $this.hide();
     html2canvas(document.body, {
       onrendered: function(canvas) {
             var imageLink = canvas.toDataURL();
