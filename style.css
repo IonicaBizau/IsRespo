@@ -4,6 +4,10 @@
     left: 50px;
 }
 
+.tablet {
+    position: absolute;
+}
+
 .desktop i.fa {
     font-size: 807px;
     position: relative;
@@ -27,4 +31,27 @@
     -o-transform-origin: 0 4;
     -webkit-transform: scale(0.4);
     -webkit-transform-origin: 0 0;
+}
+.tablet {
+    position: absolute;
+    top: -595px;
+    left: 823px;
+}
+.tablet i.fa {
+    font-size: 710px;
+    -webkit-transform: rotate(90deg);
+    color: rgb(0, 82, 128);
+}
+
+.tablet .iframe-wrapper {
+    width: 969px;
+    position: relative;
+    height: 847px;
+    top: 777px;
+    left: -200px;
+}
+.tablet iframe {
+    width: 100%;
+    height: 100%;
+    -webkit-transform: scale(0.42);
 }
