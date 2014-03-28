@@ -5,5 +5,4 @@ function queryString (name) {
     return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
 }
 
-if (queryString("site"))
-$("iframe").attr("src", queryString("site"));
+$("iframe").attr("src", "http://fiddle.jshell.net/B5T6N/9/show/");
