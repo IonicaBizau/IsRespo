@@ -1,11 +1,7 @@
 .desktop {
     position: absolute;
     top: -700px;
-    left: 50px;
-}
-
-.tablet {
-    position: absolute;
+    left: 200px;
 }
 
 .desktop i.fa {
@@ -32,11 +28,13 @@
     -webkit-transform: scale(0.4);
     -webkit-transform-origin: 0 0;
 }
+
 .tablet {
     position: absolute;
     top: -595px;
     left: 823px;
 }
+
 .tablet i.fa {
     font-size: 710px;
     -webkit-transform: rotate(90deg);
@@ -54,4 +52,30 @@
     width: 100%;
     height: 100%;
     -webkit-transform: scale(0.42);
+}
+
+
+.mobile {
+    position: absolute;
+    top: -415px;
+    left: 73px;
+}
+
+.mobile i.fa {
+    font-size: 710px;
+    color: rgb(0, 82, 128);
+}
+
+.mobile .iframe-wrapper {
+    width: 480px;
+    position: relative;
+    height: 679px;
+    top: 679px;
+    left: -88px;
+}
+
+.mobile iframe {
+    width: 100%;
+    height: 100%;
+    -webkit-transform: scale(0.49);
 }
