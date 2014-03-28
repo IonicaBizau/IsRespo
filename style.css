@@ -46,8 +46,8 @@ body {
     font-size: 710px;
     -webkit-transform: rotate(90deg);
     color: rgb(0, 82, 128);
-    color: #e67e22;
-    text-shadow: 4px 4px 0 #d35400;
+    color: #e74c3c;
+    text-shadow: 4px 4px 0 #c0392b;
 }
 
 .tablet .iframe-wrapper {
