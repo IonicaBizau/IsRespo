@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" style="display:none">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>IsRespo</title>
+        <meta name="author" content="Ionică Bizău" />
+        <meta name="description" content="Test your web application responsivity." />
+        <meta name="keywords"  content="responsivity,web application,javascript" />
+        <meta name="Resource-type" content="Document" />
+
+
+        <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+        <link rel="stylesheet" type="text/css" href="css/examples.css" />
+
+        <!--[if IE]>
+            <script type="text/javascript">
+                 var console = { log: function() {} };
+            </script>
+        <![endif]-->
+
+        <script src="./js/jquery.min.js"></script>
+        <script src="./js/jquery-ui.min.js"></script>
+
+        <script type="text/javascript" src="./js/jquery.fullPage.js"></script>
+        <script type="text/javascript" src="./js/examples.js"></script>
+
+        <script type="text/javascript">
+            $(document).ready(function() {
+
+                setTimeout(function () {
+                // TODO
+                var a = $("#desktop")
+                a.css({left: a.parent().parent().width() - a.width() * 1.24})
+                }, 1000);
+
+                $.fn.fullpage({
+                    'verticalCentered': false,
+                    'css3': true,
+                    'slidesColor': ['#F0F2F4', '#fff', '#fff', '#fff'],
+                    'navigation': true,
+                    'navigationPosition': 'right',
+                    'navigationTooltips': ['Welcome', 'What is «IsRespo?»', 'Simple and Beautiful', 'Test it'],
+                    'fixedElements': '#demosMenu',
+                    'afterLoad': function(anchorLink, index){
+                        var map = {
+                            "2": "#mobile"
+                          , "3": "#tablet"
+                          , "4": "#desktop"
+                        };
+
+                        $(map[index]).addClass('active');
+                    },
+                    afterRender: function(){
+                        $("html").fadeIn(1000);
+                    }
+
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div class="section " id="section0">
+            <h1>IsRespo</h1>
+            <p>Is your web page responsive?</p>
+            <img src="imgs/1.png" />
+        </div>
+
+        <!--
+        <div class="section" id="section1">
+            <div class="wrap">
+
+                <div class="imgsContainer">
+                    <img src="imgs/mobile.png" id="mobile" />
+                </div>
+
+                <div class="box">
+                    <h2>What is «IsRespo»?</h2>
+                    <p><strong>IsRespo</strong> is a simple tool that allows us to test the webpage resposivity on different devices: desktops, tablets, smartphones and so on.</p>
+                    <p>Amet et libero perferendis obcaecati amet possimus odio quod eveniet voluptate provident. Facere consequatur omnis tempora consequuntur vero laudantium at autem magni deleniti! Assumenda eos at illo odio impedit soluta.</p>
+                    <p>Amet facilis obcaecati ad autem et neque id? Explicabo voluptate voluptate corrupti odit nisi. Asperiores nulla sequi nam accusantium rem nemo culpa pariatur est. Harum nesciunt incidunt cumque neque reiciendis!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section moveDown" id="section2">
+            <div class="wrap">
+                <div class="imgsContainer">
+                    <img src="imgs/tablet.png" id="tablet" />
+                </div>
+
+                <div class="box">
+                    <h2>Simple and Beautiful</h2>
+                    <p>Combining the flat design with the power of the FontAwesome icons, <strong>IsRepo</strong> can test the resposivity of your web page or web application quickly.</p>
+                </div>
+            </div>
+        </div>
+        <div class="section moveDown" id="section3">
+            <div class="wrap">
+                <div class="box">
+                    <h2>Just a demo</h2>
+                    <p>Amet sapiente fuga eveniet harum veritatis, doloribus ex! Temporibus ipsam iste ducimus soluta neque debitis sunt debitis. Facere fuga nemo neque earum enim libero laborum. Repellat voluptates magni natus at?</p>
+                </div>
+            </div>
+            <div class="imgsContainer">
+                <img src="imgs/desktop.png" id="desktop" />
+            </div>
+        </div>
+        -->
+        <div class="section moveDown" id="section2">
+            <iframe src="./index.html" frameborder="0" noscrollbars></iframe>
+        </div>
+    </body>
+</html>

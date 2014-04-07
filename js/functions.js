@@ -6,3 +6,9 @@ function queryString (name) {
 }
 
 $("iframe").attr("src", queryString("site"));
+
+$(".url-to-load").on("keyup", function (e) {
+    if (e.keyCode === 13) {
+        $("iframe").attr("src", $(this).val());
+    }
+});

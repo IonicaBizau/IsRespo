@@ -1,5 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
 
+html, body {
+    overflow: hidden;
+}
+
 body {
     background: #ecf0f1;
 }
