@@ -15,57 +15,7 @@ body > h1 {
     position: absolute;
     left: 0;
     right: 0;
-    font-size: 4em;
     color: #1f1f1f;
-}
-
-.monitor iframe {
-    height: 100%;
-    width: 100%;
-    -ms-zoom: 0.4;
-    -moz-transform: scale(0.4);
-    -moz-transform-origin: 0 0;
-    -o-transform: scale(0.4);
-    -o-transform-origin: 0 4;
-    -webkit-transform: scale(0.4);
-    -webkit-transform-origin: 0 0;
-}
-
-
-.tablet .iframe-wrapper {
-    width: 48em;
-    height: 55em;
-    margin: -19em 0 0 -17em;
-}
-.tablet iframe {
-    width: 100%;
-    height: 100%;
-    -webkit-transform: scale(0.30);
-}
-
-
-.phone .iframe-wrapper {
-    width: 24em;
-    height: 31em;
-    margin: -10em 0 0 -8em;
-}
-
-.phone iframe {
-    width: 100%;
-    height: 100%;
-    -webkit-transform: scale(0.35);
-}
-
-.laptop .iframe-wrapper {
-    width: 66.5em;
-    height: 40em;
-    margin: -13em 0 0 -22em;
-}
-
-.laptop iframe {
-    width: 100%;
-    height: 100%;
-    -webkit-transform: scale(0.35);
 }
 
 * {
@@ -584,8 +534,23 @@ input.url-to-load:focus {
 
 /* high resolutions */
 @media (min-width: 1905px) {
+    body > h1 {
+        font-size: 4em;
+    }
     div.container.service-graphic {
         margin-top: 160px;
+    }
+    /* monitor  */
+    .monitor iframe {
+        height: 100%;
+        width: 100%;
+           -ms-zoom: 0.4;
+          -moz-transform: scale(0.4);
+          -moz-transform-origin: 0 0;
+            -o-transform: scale(0.4);
+            -o-transform-origin: 0 4;
+        -webkit-transform: scale(0.4);
+        -webkit-transform-origin: 0 0;
     }
     div.screen.monitor {
         width: 57em;
@@ -595,25 +560,32 @@ input.url-to-load:focus {
         height: 85em;
         width: 136.3em;
     }
+
+    /* laptop */
     div.laptop {
         width: 24em;
         height: 15em;
-        right: 19em;
+        right: 20em;
     }
     .laptop > div.btm {
         width: 26em;
         margin-left: -13em;
     }
+
+    /* tablet */
     div.tablet {
         width: 16em;
         height: 20em;
         left: 20em;
     }
+
+    /* phone */
     div.phone {
         width: 9em;
         height: 14em;
         left: 37em;
     }
+
     .tablet div.screen {
         width: 14em;
         height: 16.5em;
@@ -621,5 +593,113 @@ input.url-to-load:focus {
     .phone div.screen {
         width: 8em;
         height: 10.5em;
+    }
+
+    .tablet .iframe-wrapper {
+        width: 48em;
+        height: 55em;
+        margin: -19em 0 0 -17em;
+    }
+    .tablet iframe {
+        width: 100%;
+        height: 100%;
+        -webkit-transform: scale(0.30);
+    }
+
+
+    .phone .iframe-wrapper {
+        width: 24em;
+        height: 31em;
+        margin: -10em 0 0 -8em;
+    }
+
+    .phone iframe {
+        width: 100%;
+        height: 100%;
+        -webkit-transform: scale(0.35);
+    }
+
+    .laptop .iframe-wrapper {
+        width: 66.5em;
+        height: 40em;
+        margin: -13em 0 0 -22em;
+    }
+
+    .laptop iframe {
+        width: 100%;
+        height: 100%;
+        -webkit-transform: scale(0.35);
+    }
+
+}
+
+@media (min-width: 1360px) and (max-width: 1900px) {
+    body > h1 {
+        font-size: 1.6em;
+    }
+    div.container.service-graphic {
+        margin-top: 3em;
+    }
+    .monitor iframe {
+        height: 100%;
+        width: 100%;
+           -ms-zoom: 0.3;
+          -moz-transform: scale(0.3);
+          -moz-transform-origin: 0 0;
+            -o-transform: scale(0.3);
+            -o-transform-origin: 0 3;
+        -webkit-transform: scale(0.3);
+        -webkit-transform-origin: 0 0;
+    }
+    .monitor .iframe-wrapper {
+        height: 85em;
+        width: 136.3em;
+    }
+    div.laptop {
+        right: 10em;
+    }
+    .laptop > div.btm {
+        margin-left: -12.3em;
+    }
+    div.tablet {
+        left: 13em;
+    }
+    div.phone {
+        left: 28em;
+    }
+    .tablet .iframe-wrapper {
+        width: 38em;
+        height: 55em;
+        margin: -19em 0 0 -13.5em;
+    }
+    .tablet iframe {
+        width: 100%;
+        height: 100%;
+        -webkit-transform: scale(0.30);
+    }
+
+
+    .phone .iframe-wrapper {
+        width: 20em;
+        height: 31em;
+        margin: -10.6em 0 0 -7.2em;
+    }
+
+    .phone iframe {
+        width: 100%;
+        height: 100%;
+        -webkit-transform: scale(0.3);
+    }
+
+    .laptop .iframe-wrapper {
+        width: 65.4em;
+        height: 40em;
+        margin: -14em 0 0 -23em;
+    }
+
+    .laptop iframe {
+        width: 100%;
+        height: 100%;
+        -webkit-transform: scale(0.3);
     }
 }
