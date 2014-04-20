@@ -12,6 +12,7 @@
 
         <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
         <link rel="stylesheet" type="text/css" href="css/examples.css" />
+        <link rel="stylesheet" type="text/css" href="css/animate.css" />
 
         <!--[if IE]>
             <script type="text/javascript">
@@ -44,12 +45,23 @@
                     'fixedElements': '#demosMenu',
                     'afterLoad': function(anchorLink, index){
                         var map = {
-                            "2": "#mobile"
-                          , "3": "#tablet"
-                          , "4": "#desktop"
+                            "2": {
+                                image: "#mobile"
+                              , addClass: "fadeInLeft animated"
+                            }
+                          , "3": {
+                                image: "#tablet"
+                              , addClass: "fadeInUp animated"
+                            }
+                          , "4": {
+                                image: "#desktop"
+                              , addClass: "fadeInLeft animated"
+                            }
                         };
 
-                        $(map[index]).addClass('active');
+                        if (!map[index]) return;
+
+                        $(map[index].image).show().addClass(map[index].addClass);
                     },
                     afterRender: function(){
                         $("html").fadeIn(1000);
@@ -66,7 +78,6 @@
             <img src="imgs/1.png" />
         </div>
 
-        <!--
         <div class="section" id="section1">
             <div class="wrap">
 
@@ -106,7 +117,6 @@
                 <img src="imgs/desktop.png" id="desktop" />
             </div>
         </div>
-        -->
         <div class="section moveDown" id="section2">
             <iframe src="./index.html" frameborder="0" noscrollbars></iframe>
         </div>
