@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            /* phone */
+            @media (min-width: 100px) {
+                .tablet, .laptop, .monitor { display: none; }
+                .phone { display: block; }
+                body {
+                    background: rgb( 231, 76,  60 );
+                }
+                h1 { font-size: 2em; }
+            }
+
+            /* tablet */
+            @media (min-width: 500px) {
+                .phone, .laptop, .monitor { display: none; }
+                .tablet { display: block; }
+                body {
+                    background: rgb( 52,  73,  94 );
+                }
+                h1 { font-size: 4em; }
+            }
+
+            /* laptop */
+            @media (min-width: 1000px) {
+                .phone, .tablet, .monitor { display: none; }
+                .laptop { display: block; }
+                body {
+                    background: rgb( 230, 126, 34 );
+                }
+                h1 { font-size: 6em; }
+            }
+
+            /* monitor */
+            @media (min-width: 2000px) {
+                .phone, .tablet, .laptop { display: none; }
+                .monitor { display: block; }
+                body {
+                    background: rgb( 192, 57,  43 );
+                }
+                h1 { font-size: 9em; }
+                p { font-size: 3em; }
+            }
+
+            /* all */
+            body {
+                font-family: Open Sans, Arial;
+                color: white;
+                padding: 40px;
+            }
+
+            p {
+                text-align: justify;
+            }
+
+
+            h1 {
+                text-shadow: 2px 2px 0 #1f1f1f;
+                font-weight: 100;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 class="tablet">Hey, tablet!</h1>
+        <h1 class="phone">I love smartphones!</h1>
+        <h1 class="laptop">Laptops are great</h1>
+        <h1 class="monitor">Let's watch a movie.</h1>
+        <p>Ipsum amet facilis quas eum cupiditate aut consequuntur placeat aut assumenda optio tempore molestias. Doloremque ab rem saepe aperiam exercitationem! Nihil tempore laboriosam eligendi quasi repudiandae? Quibusdam inventore beatae cumque.</p>
+        <p>Amet omnis voluptate inventore molestiae quo enim. Pariatur consequatur numquam praesentium tempore esse. Saepe corporis incidunt fugiat distinctio nesciunt! Excepturi facilis excepturi sed optio eligendi eveniet, nostrum dolorum dolore? Vel?</p>
+        <p>Amet velit ipsam facere vero corporis porro. Sunt architecto unde odio cupiditate tempora! Libero quos praesentium adipisci unde nam! Sapiente neque nulla accusantium ipsam a rerum. Dolorum tempore quos veritatis.</p>
+    </body>
+</html>
