@@ -293,9 +293,17 @@ h2{
 /* Section 0
 * --------------------------------------- */
 #section0 img{
-    height: 100%;
     margin: 40px 0 0 0;
     max-height: calc(100% - 200px);
+    max-width: 100%;
+}
+
+#section0 {
+    color: white;
+}
+
+#section0 h1 {
+    color: white;
 }
 
 
