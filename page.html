@@ -24,52 +24,6 @@
         <script src="./js/jquery-ui.min.js"></script>
 
         <script type="text/javascript" src="./js/jquery.fullPage.js"></script>
-        <script type="text/javascript" src="./js/examples.js"></script>
-
-        <script type="text/javascript">
-            $(document).ready(function() {
-
-                setTimeout(function () {
-                // TODO
-                var a = $("#desktop")
-                a.css({left: a.parent().parent().width() - a.width() * 1.24})
-                }, 1000);
-
-                $.fn.fullpage({
-                    'verticalCentered': false,
-                    'css3': true,
-                    'slidesColor': ['#123252', '#fff', '#fff', '#fff'],
-                    'navigation': true,
-                    'navigationPosition': 'right',
-                    'navigationTooltips': ['Welcome', 'What is «IsRespo?»', 'Simple and Beautiful', 'Test it'],
-                    'fixedElements': '#demosMenu',
-                    'afterLoad': function(anchorLink, index){
-                        var map = {
-                            "2": {
-                                image: "#mobile"
-                              , addClass: "fadeInLeft animated"
-                            }
-                          , "3": {
-                                image: "#tablet"
-                              , addClass: "fadeInUp animated"
-                            }
-                          , "4": {
-                                image: "#desktop"
-                              , addClass: "fadeInLeft animated"
-                            }
-                        };
-
-                        if (!map[index]) return;
-
-                        $(map[index].image).show().addClass(map[index].addClass);
-                    },
-                    afterRender: function(){
-                        $("html").fadeIn(1000);
-                    }
-
-                });
-            });
-        </script>
     </head>
     <body>
         <div class="section " id="section0">
@@ -105,17 +59,6 @@
             </div>
         </div>
         <div class="section moveDown" id="section3">
-            <div class="wrap">
-                <div class="box">
-                    <h2>Just a demo</h2>
-                    <p>Amet sapiente fuga eveniet harum veritatis, doloribus ex! Temporibus ipsam iste ducimus soluta neque debitis sunt debitis. Facere fuga nemo neque earum enim libero laborum. Repellat voluptates magni natus at?</p>
-                </div>
-            </div>
-            <div class="imgsContainer">
-                <img src="imgs/desktop.png" id="desktop" />
-            </div>
-        </div>
-        <div class="section moveDown" id="section2">
             <iframe src="./index.html" frameborder="0" noscrollbars></iframe>
         </div>
     </body>
