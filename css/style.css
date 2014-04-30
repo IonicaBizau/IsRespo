@@ -706,7 +706,7 @@ input.url-to-load:focus {
         -webkit-transform: scale(0.3);
     }
 }
-/*
+
 @media (max-width: 1359px) {
     .use-higher-resolution {
         display: block;
@@ -714,4 +714,4 @@ input.url-to-load:focus {
     .container, .url-to-load, .title {
         display: none;
     }
-}*/
+}
