@@ -11,7 +11,7 @@
 
 
         <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
-        <link rel="stylesheet" type="text/css" href="css/examples.css" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
         <link rel="stylesheet" type="text/css" href="css/animate.css" />
 
         <!--[if IE]>
@@ -24,8 +24,14 @@
         <script src="./js/jquery-ui.min.js"></script>
 
         <script type="text/javascript" src="./js/jquery.fullPage.js"></script>
+        <script type="text/javascript" src="./js/jQuery-language-select.js"></script>
+        <script type="text/javascript" src="./js/index.js"></script>
     </head>
     <body>
+        <select class="language">
+            <option value="ro">Română</option>
+            <option value="en">English</option>
+        </select>
         <div class="section " id="section0">
             <h1>IsRespo</h1>
             <p data-lang="en">Is your web page responsive?</p>
@@ -52,13 +58,14 @@
         <div class="section moveDown" id="section2">
             <div class="wrap">
                 <div class="imgsContainer">
-                    <img src="imgs/tablet.png" id="tablet" />
+                    <img src="imgs/laptop.png" id="laptop" style="width: 38em;"/>
                 </div>
 
                 <div class="box">
                     <h2 data-lang="en">Simple and Beautiful</h2>
                     <h2 data-lang="ro">Simplu și frumos</h2>
-                    <p data-lang="en">Combinând designul flat cu puterea limbajelor de prezentare HTML5 și CSS3, <strong>IsRepo</strong> este o unealtă perfectă pentru a simula compatibiltatea paginilor web cu dispozitive mobile.</p>
+                    <p data-lang="ro">Combinând designul flat cu puterea limbajelor de prezentare HTML5 și CSS3, <strong>IsRepo</strong> este o unealtă perfectă pentru a simula compatibiltatea paginilor web cu dispozitive mobile.</p>
+                    <p data-lang="en">Combining the flat design with the power of HTML5 and CSS3, <strong>IsRepo</strong> is perfect for the resposivity of your web page or web application quickly.</p>
                 </div>
             </div>
         </div>

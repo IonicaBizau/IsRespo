@@ -715,3 +715,14 @@ input.url-to-load:focus {
         display: none;
     }
 }
+
+select.language {
+    position: fixed;
+    z-index: 9999;
+    border: none;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    background: #3498DB;
+    top: 0;
+}

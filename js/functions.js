@@ -14,27 +14,4 @@ $(document).ready(function() {
             $("iframe").attr("src", $(this).val());
         }
     });
-
-    $.fn.fullpage({
-        "verticalCentered": false
-      , "css3": true
-      , "slidesColor": [
-            "#123252"
-          , "#fff"
-          , "#fff"
-          , "#fff"
-        ]
-      , "navigation": true
-      , "navigationPosition": "right"
-      , "navigationTooltips": [
-            "Welcome"
-          , "What is «IsRespo?»"
-          , "Simple and Beautiful"
-          , "Test it"
-        ]
-      , "fixedElements": "#demosMenu"
-      , afterRender: function(){
-            $("html").fadeIn(1000);
-        }
-    });
 });

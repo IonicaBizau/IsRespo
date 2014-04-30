@@ -46,7 +46,7 @@ abbr,acronym { border: 0;
 }
 
 
-#mobile,#tablet {
+#mobile, #laptop {
     display: none;
 }
 
@@ -374,6 +374,11 @@ h2{
     top: 50%;
 }
 
+#section2 .box h2,
+#section2 .box p {
+    color: white;
+}
+
 #section2.moveDown .imgsContainer,
 #staticImg .imgsContainer{
     top: 90%;
@@ -476,4 +481,15 @@ h2{
 iframe {
     width: 100%;
     height: 100%;
+}
+
+select.language {
+    position: fixed;
+    z-index: 9999;
+    border: none;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    background: #3498DB;
+    top: 0;
 }
