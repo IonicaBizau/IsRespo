@@ -1,4 +1,4 @@
-[![](./imgs/title.png)](http://ionicabizau.github.io/isrespo)
+[![](./imgs/title.png)](http://ionicabizau.github.io/IsRespo/)
 
 # What is «IsRespo»?
 *IsRespo* is a simple tool that allows us to test a webpage resposivity on different devices: desktops, tablets, smartphones and so on.
@@ -8,7 +8,7 @@ The application is open source being licensed under the MIT License.
 Combining the flat design with the power of HTML5 and CSS3, *IsRepo* is perfect for simulating quickly the resposivity of your web page or web application.
 
 # Live Demo
-Click [here](http://ionicabizau.github.io/isrespo) for a live proview.
+Click [here](http://ionicabizau.github.io/IsRespo/) for a live proview.
 
 # Hacking
 If you want to contribute please do the following:
