@@ -18,12 +18,6 @@ $(document).ready(function () {
         ]
       , "navigation": true
       , "navigationPosition": "right"
-      , "navigationTooltips": [
-            "Welcome"
-          , "What is «IsRespo?»"
-          , "Simple and Beautiful"
-          , "Test it"
-        ]
       , "fixedElements": "#demosMenu"
       , 'afterLoad': function(anchorLink, index){
             var map = {
