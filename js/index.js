@@ -1,4 +1,12 @@
 $(document).ready(function () {
+
+    function queryString (name) {
+        name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+        var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+            results = regex.exec(location.search);
+        return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+    }
+
     // on change
     $("select.language").on("change", function () {
         // set the new language
@@ -6,8 +14,12 @@ $(document).ready(function () {
             attribute: "data-lang"
           , lang: $(this).val()
         });
-    }).change();
+    }).val(
+        queryString ("lang") ||
+        (window.navigator.userLanguage || window.navigator.language).split("-")[0]
+    ).change();
 
+    // full page configuration
     $.fn.fullpage({
         "verticalCentered": false
       , "css3": true
