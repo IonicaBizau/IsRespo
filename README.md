@@ -10,6 +10,11 @@ Combining the flat design with the power of HTML5 and CSS3, *IsRepo* is perfect 
 # Live Demo
 Click [here](http://ionicabizau.github.io/IsRespo/) for a live proview.
 
+To access *IsRespo* directly, click the following likns:
+
+ - English: http://ionicabizau.github.io/IsRespo/app.en.html
+ - Romanian: http://ionicabizau.github.io/IsRespo/app.ro.html
+
 # Hacking
 If you want to contribute please do the following:
 
