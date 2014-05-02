@@ -15,6 +15,9 @@ To access *IsRespo* directly, click the following likns:
  - English: http://ionicabizau.github.io/IsRespo/app.en.html
  - Romanian: http://ionicabizau.github.io/IsRespo/app.ro.html
 
+# How to use
+Provide your webpage url in the textbox and press <kbd>ENTER</kbd>. You can start with the [test page](http://ionicabizau.github.io/IsRespo/demo.html).
+
 # Hacking
 If you want to contribute please do the following:
 
