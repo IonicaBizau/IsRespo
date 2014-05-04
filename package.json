@@ -1,7 +1,7 @@
 {
   "name": "isrespo",
   "version": "0.1.3",
-  "description": "IsRespo is a simple tool that allows us to test a webpage resposivity on different devices: desktops, tablets, smartphones and so on. The application is open source being licensed under the MIT License.",
+  "description": "IsRespo is a simple tool that allows us to test a webpage responsiveness on different devices: desktops, tablets, smartphones and so on. The application is open source being licensed under the MIT License.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,7 +14,7 @@
       "isrespo": "xdg-open index.html"
   },
   "keywords": [
-    "responsivity",
+    "responsiveness",
     "test",
     "html",
     "css"
