@@ -11,7 +11,7 @@
     "url": "git://github.com/IonicaBizau/IsRespo.git"
   },
   "bin": {
-      "isrespo": "./bin/isrespo"
+    "isrespo": "./bin/isrespo"
   },
   "keywords": [
     "responsivity",
@@ -24,5 +24,7 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/IsRespo/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/IsRespo"
+  "homepage": "https://github.com/IonicaBizau/IsRespo",
+  "dependencies": {},
+  "devDependencies": {}
 }
