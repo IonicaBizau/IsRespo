@@ -1,1 +1,1 @@
-xdg-open $PWD/index.html
+xdg-open `dirname -- "$0"`/index.html
