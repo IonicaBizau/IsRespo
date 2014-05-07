@@ -36,6 +36,7 @@ There are few limitations:
 ##`v0.2.0`
  - Merged #4 and #2.
  - Typo fixes
+ - Added `contributors` field in `package.json` file. Thanks @dooma and @dandv
 
 # License
 The application is licensed under the MIT license.
