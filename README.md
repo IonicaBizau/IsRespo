@@ -31,6 +31,12 @@ There are few limitations:
  - The web page is still loaded in an `iframe`. That's why we will not be able to test responsiveness for the sites that send `X-Frame-Options:deny` header.
  - This application uses only the client side, so if the device handling is done on the server side the desktop version will be loaded.
 
+# Changelog
+
+##`v0.2.0`
+ - Merged #4 and #2.
+ - Typo fixes
+
 # License
 The application is licensed under the MIT license.
 For more information see the LICENSE file.
