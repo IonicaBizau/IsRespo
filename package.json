@@ -10,6 +10,11 @@
     "type": "git",
     "url": "git://github.com/IonicaBizau/IsRespo.git"
   },
+  "contributors": [
+    { "name": "Ionică Bizău", "email": "bizauionica@gmail.com" },
+    { "name": "Călin Sălăgean", "email": "salagean.calin@gmail.com" },
+    { "name": "Dan Dascalescu", "email": "ddascalescu+github@gmail.com" }
+  ],
   "bin": {
     "isrespo": "./isrespo"
   },
