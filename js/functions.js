@@ -11,7 +11,17 @@ $(document).ready(function() {
 
     $(".url-to-load").on("keyup", function (e) {
         if (e.keyCode === 13) {
-            $("iframe").attr("src", $(this).val());
+            var url = $(this).val().replace(/^\W+/, "");
+
+            /*
+             * Append protocol to domain if it wasn't provided
+             * Use HTTP protocol by default. It will switch to HTTPS if web server will redirect to it
+             */
+            if (!url.match(/^http/i)) {
+                url = "http://" + url;
+            }
+
+            $("iframe").attr("src", url);
         }
     });
 });
