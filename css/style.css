@@ -606,7 +606,10 @@ input.url-to-load:focus {
     .tablet iframe {
         width: 100%;
         height: 100%;
-        -webkit-transform: scale(0.30);
+        -webkit-transform: scale(0.3);
+           -ms-zoom: 0.3;
+          -moz-transform: scale(0.3);
+            -o-transform: scale(0.3);
     }
 
 
@@ -620,6 +623,9 @@ input.url-to-load:focus {
         width: 100%;
         height: 100%;
         -webkit-transform: scale(0.35);
+           -ms-zoom: 0.35;
+          -moz-transform: scale(0.35);
+            -o-transform: scale(0.35);
     }
 
     .laptop .iframe-wrapper {
@@ -632,6 +638,9 @@ input.url-to-load:focus {
         width: 100%;
         height: 100%;
         -webkit-transform: scale(0.35);
+           -ms-zoom: 0.35;
+          -moz-transform: scale(0.35);
+            -o-transform: scale(0.35);
     }
 
 }
@@ -678,7 +687,10 @@ input.url-to-load:focus {
     .tablet iframe {
         width: 100%;
         height: 100%;
-        -webkit-transform: scale(0.30);
+        -webkit-transform: scale(0.3);
+           -ms-zoom: 0.3;
+          -moz-transform: scale(0.3);
+            -o-transform: scale(0.3);
     }
 
 
@@ -692,6 +704,9 @@ input.url-to-load:focus {
         width: 100%;
         height: 100%;
         -webkit-transform: scale(0.3);
+           -ms-zoom: 0.3;
+          -moz-transform: scale(0.3);
+            -o-transform: scale(0.3);
     }
 
     .laptop .iframe-wrapper {
@@ -704,6 +719,9 @@ input.url-to-load:focus {
         width: 100%;
         height: 100%;
         -webkit-transform: scale(0.3);
+           -ms-zoom: 0.3;
+          -moz-transform: scale(0.3);
+            -o-transform: scale(0.3);
     }
 }
 
