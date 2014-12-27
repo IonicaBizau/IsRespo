@@ -1,0 +1,56 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
+
+/* phone */
+@media (min-width: 100px) {
+    .error {
+        font-size: 1em;
+        margin-left: 0px;
+        left: 0;
+    }
+}
+
+/* tablet */
+@media (min-width: 500px) {
+    .error {
+        font-size: 1em;
+        margin-left: 0px;
+        left: 0;
+    }
+}
+
+/* laptop */
+@media (min-width: 1000px) {
+    .error {
+        left: 50%;
+        margin-left: -350px;
+        font-size: 2em;
+    }
+}
+
+/* monitor */
+@media (min-width: 2000px) {
+    .error {
+        left: 50%;
+        font-size: 5em;
+        margin-left: -350px;
+    }
+}
+
+/* all */
+.error {
+    max-width: 100%;
+    width: 700px;
+    text-align: center;
+    padding: 20px 40px;
+    background: #e74c3c;
+    color: white;
+    border: 4px solid #c0392b;
+    border-radius: 4px;
+    position: absolute;
+    top: 10%;
+}
+
+body {
+    background: #ecf0f1;
+    font-family: "Open Sans", sans-serif;
+}
