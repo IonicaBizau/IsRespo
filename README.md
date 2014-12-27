@@ -32,12 +32,7 @@ There are few limitations:
  - This application uses only the client side, so if the device handling is done on the server side the desktop version will be loaded.
 
 # Changelog
-
-##`v0.2.0`
- - Merged #4 and #2.
- - Typo fixes
- - Added `contributors` field in `package.json` file. Thanks @dooma and @dandv
+See the [releases page](https://github.com/IonicaBizau/IsRespo/releases).
 
 # License
-The application is licensed under the MIT license.
-For more information see the LICENSE file.
+See the [LICENSE](/LICENSE) file.
