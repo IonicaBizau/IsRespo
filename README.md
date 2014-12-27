@@ -4,6 +4,8 @@
 *IsRespo* is a simple tool that allows us to test a webpage responsiveness on different devices: desktops, tablets, smartphones and so on.
 The application is open source being licensed under the MIT License.
 
+![](imgs/1.png);
+
 # Simple and Beautiful
 Combining the flat design with the power of HTML5 and CSS3, *IsRepo* is perfect for simulating quickly the responsiveness of your web page or web application.
 
