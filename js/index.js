@@ -51,4 +51,7 @@ $(document).ready(function () {
             $("html").fadeIn(1000);
         }
     });
+    
+    // Firefox hack
+    $(window).resize();
 });
