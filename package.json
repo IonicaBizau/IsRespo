@@ -1,6 +1,6 @@
 {
   "name": "isrespo",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "IsRespo is a simple tool that allows us to test a webpage responsiveness on different devices: desktops, tablets, smartphones and so on. The application is open source being licensed under the MIT License.",
   "main": "lib/index.js",
   "scripts": {
@@ -68,6 +68,7 @@
     "src/",
     "resources/",
     "menu/",
+    "scripts/",
     "cli.js",
     "index.js"
   ]
