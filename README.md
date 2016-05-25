@@ -1,7 +1,9 @@
 
 [![isrespo](./imgs/title.png)](http://ionicabizau.github.io/IsRespo/)
 
-# `$ isrespo` [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/isrespo.svg)](https://www.npmjs.com/package/isrespo) [![Downloads](https://img.shields.io/npm/dt/isrespo.svg)](https://www.npmjs.com/package/isrespo) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
+# `$ isrespo`
+
+ [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![AMA](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Version](https://img.shields.io/npm/v/isrespo.svg)](https://www.npmjs.com/package/isrespo) [![Downloads](https://img.shields.io/npm/dt/isrespo.svg)](https://www.npmjs.com/package/isrespo) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > IsRespo is a simple tool that allows us to test a webpage responsiveness on different devices: desktops, tablets, smartphones and so on. The application is open source being licensed under the MIT License.
 
